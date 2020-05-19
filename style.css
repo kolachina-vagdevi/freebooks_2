@@ -1,0 +1,86 @@
+h1{
+
+  text-align: center;
+  background-color: black;
+  color: white;
+  
+ 
+}
+p{
+  font-size: 30px;
+}
+.search .searchTerm {
+  width: 80%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+.search.searchTerm:focus{
+  color: #00B4CC;
+}
+.search .searchButton {
+  width: 20px;
+  height: 20px;
+  border: 1px solid blue;
+  background: blue;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+.search .searchButton i{
+  color: blue;
+}
+#button-holder{
+    background-color:black;
+    border-top:thin solid red;
+    box-shadow:1px 1px 1px 1px white;
+    cursor:pointer;
+    float:left;
+    height:27px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:80px;
+}
+  
+#button-holder img{
+    margin:20px;
+    width:20px; 
+}
+
+
+ul{
+list-style: none;
+list-style-type: none;
+list-style-position: none;
+}
+li{
+  display: inline;
+  margin: 100px;
+}
+
+li a:hover{
+  color: red;
+}
+footer{
+  text-align: center;
+  background: black;
+  color:white;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
